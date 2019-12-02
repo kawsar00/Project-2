@@ -1,0 +1,178 @@
+*{margin:0; padding:0;outline:0;}
+
+body{
+    font-family:Arial, sans-sarif;
+}
+
+a{
+    text-decoration:none;
+}
+a:visited{
+    background: lightblue;
+}
+a:focus{
+    background: orange;
+}
+li{
+    list-style-type:none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin:10px 0;
+    
+}
+
+p{
+    line-height:150%;
+    margin-bottom:1.5em;
+}
+
+.floatleft{
+    float:left;
+}
+
+.floatright{
+    float:right;
+}
+
+.clr{
+    overflow:hidden;
+}
+.main_wrap{
+    width:100%;
+}
+
+.wrap{
+        width: 1000px;
+        margin:0 auto;
+        overflow: hidden;
+}
+
+/*-------------------------------------------*/
+
+/* header section start */
+.container{
+    padding: 25px 0px;
+}
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 30%;
+    flex-basis: 30%;
+}
+.logo img{}
+
+.menu{max-width: 70%;flex-basis: 70%;}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu ul li{
+    padding: 0px 2px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    padding: 10px;
+    color: #000;
+}
+.menu ul li a:hover{
+    background: #C8CCCF;
+}
+.active{
+    background: #C8CCCF;
+}
+/* header section end */
+/* content section coding start */
+.content{
+    max-width: 85%;
+    margin: 0 auto;
+    flex-basis: 80%;
+    margin-top: 50px;
+}
+.content h2{
+    padding: 10px 0px;
+    color: #DEDFDA;
+}
+.content h1{
+    padding: 10px 0px;
+    font-size: 26px;
+}
+.content .cmnt{
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+/* content section coding end */
+/* article area start */
+.article{
+    max-width: 85%;
+    flex-basis: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.article .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article .row .article_box{
+    max-width: 45%;
+    flex-basis: 45%;
+}
+.article .row .article_box img{
+    width: 100%;
+}
+.article .row .article_box h2{
+    font-size: 20px;
+    margin: 20px 0px;
+    color: #DEDFDA;
+}
+.article .row .article_box h1{
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.article .row .article_box p{
+    text-align: justify;
+}
+
+
+
+
+/* article area end */
+
+/* footer section start */
+.foot-bg{
+    background: #F0F0F0;
+    margin-top: 70px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+.footer .footer_left{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.footer .footer_left a{
+    color: #000;
+    padding: 0px 10px;
+}
+
+.footer_right{
+    justify-content: flex-end;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.footer_right a{
+    color: #000;
+    padding: 0px 5px;
+}
+.footer_right .row{
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* footer section end */
